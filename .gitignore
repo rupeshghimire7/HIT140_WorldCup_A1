@@ -1,0 +1,11 @@
+.pyc
+__pycache__/
+
+problems.md
+notebooks/
+failed/
+
+.venv/
+venv/
+env/
+.env
