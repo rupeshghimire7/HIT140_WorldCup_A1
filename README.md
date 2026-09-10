@@ -29,14 +29,6 @@ tasks analyse the same underlying quantity.
 | `data/world_cup_2026_players.csv` | Task 3 | 1 row / player | Header on row 2; `Pos`, `Ast.1` (assists/90) |
 | `data/world_cup_match_data_t4.csv` | Task 4 | 1 row / match | 66 columns, incl. shots on target |
 
-*(Fill in the exact source URL(s) the data was pulled from here, per the assignment's
-"provided sites" requirement — e.g. FBref / FootyStats / official FIFA stats page.)*
-
-Task 1 and Task 4 both read from a match-level CSV but under two slightly different
-filenames/paths (`world_cup_match_data.csv` vs. `world_cup_match_data_t4.csv`) — worth
-confirming these are the same underlying export (104 total matches in Task 4's file) before
-submission, and consolidating the `data/` folder structure so every notebook resolves its
-relative path correctly (`../../data/...` vs. `../World_Cup_2026_clean.xlsx`).
 
 ### Requirements
 ```
